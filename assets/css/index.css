@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    background: url('../images/bg-intro-desktop.png')  no-repeat;
+    
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+section{
+    display: inline;
+    float: left;
+    width: 500px;
+    margin: 200px 140px ;  /* configurar pra cada parte na*/
+    color: white;
+}
+
+section h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+aside{
+    width: 500px;
+    float: right;
+}
+
+aside h1{
+    text-align: center;
+    background: #5d54a3;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+aside h1 label#sn{
+    font-weight: normal;
+}
+
+aside article{
+    background: white;
+    border-radius: 10px;
+}
+
+aside article p{
+    padding: 10px 0px 0px 10px;
+    margin: 0;
+}
+
+aside article p input{
+    font-size: 16px;
+    padding: 10px 150px 0px 10px;
+    border-radius: 5px;
+}
+
+aside article p label{
+    padding: 15px;
+}
+
+p > input{
+    display: block;
+}
+
+footer{
+    clear: both;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
